@@ -58,7 +58,7 @@ python check.py --input domains.txt --threads 50
 ### 🔹 Full Example
 
 ```bash
-python scanner.py --input domains.txt --output results.txt --threads 50
+python check.py --input domains.txt --output results.txt --threads 50
 ```
 
 ---
@@ -96,6 +96,18 @@ Example output:
 [-] google.com -> Not Vulnerable
 [!] testsite.org -> Timeout / Error
 ```
+
+---
+
+## 🔍 Further Inspection (Vulnerable Targets)
+
+After identifying vulnerable domains, you can analyze them in detail using the payload module:
+
+```bash
+python payload.py --target https://example.com
+```
+
+This will provide extended information and deeper inspection for the selected target.
 
 ---
 
