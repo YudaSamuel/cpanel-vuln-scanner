@@ -6,7 +6,7 @@ A fully automated tool designed to scan target domains or IP addresses and provi
 
 ## ⚡ Features
 
-* 🔍 Automatic scanning of domains and IP addresses
+* 🔍 Automatic scanning of domains
 * ⚙️ Detection of misconfigurations and weak points
 * 🛡️ Identification of potential vulnerabilities
 * 🚀 Multi-threaded scanning for high performance
@@ -76,10 +76,8 @@ python check.py --input domains.txt --output results.txt --threads 50
 ## 📁 Example Input File (domains.txt)
 
 ```
-example.com
-google.com
-1.1.1.1
-testsite.org
+https://example.com
+http://google.com
 ```
 
 ---
