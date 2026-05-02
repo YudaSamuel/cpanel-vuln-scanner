@@ -106,19 +106,6 @@ You are responsible for how you use it. Do not scan or attack systems without ex
 
 ---
 
-## 👨‍💻 Author
-
-Yuda
-
----
-
-## ⭐ Contributing
-
-Contributions, issues, and feature requests are welcome.
-Feel free to fork the repository and submit a pull request.
-
----
-
 ## 📌 Notes
 
 * Use a higher thread count carefully to avoid network instability
